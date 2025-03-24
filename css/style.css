@@ -1,0 +1,18 @@
+body{
+background-color: rgb(151, 211, 220);
+border-color: black;
+}
+
+
+#boot1{
+    float:left;
+}
+
+#boot2{
+    float: right;
+}
+
+#boot3{
+    
+    float: left;
+} 
