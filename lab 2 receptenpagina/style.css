@@ -1,17 +1,21 @@
 body{
     font-style: Roboto;
-    /* display: inline-block; */
     margin-left: 300px;
 
 }
 
 div.lijn{
-text-decoration-line: underline;
-}
+        text-decoration: underline;
+      }
 
 img{
 width: 500px; ;
 height: 400px ;
 
+
+}
+
+footer{
+background-color: rgb(135, 189, 135);
 
 }
