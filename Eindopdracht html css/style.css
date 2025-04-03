@@ -1,0 +1,102 @@
+
+  
+  
+  /* body{
+  
+  border-style: solid;
+  }
+  .navbar{
+
+    display: flex;
+    background-color: rgb(101, 87, 87);
+    border-style: solid;
+    border-color:black ;
+    margin: 20px;
+  }
+  
+  .item{
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 0, 0);
+    font-size: 25px;
+    margin: 10px;
+    flex-direction: row;
+  } */
+/*   
+ .item4{
+    display: flex;
+    /* justify-content: right; 
+  }   */
+  
+
+  body{
+    display: flex;
+    flex-direction: column;
+  border-style: solid;
+  padding: 20px;
+
+
+  }
+  .navbar{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  
+  }
+
+  .item{
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  font-size: 15px;
+  justify-content: space-around;
+  border-style: solid ;
+  border-color: black;
+  padding:10px;
+  }
+  
+  
+  .game{
+  font-size: 15px;
+  color:rgb(0, 0, 0) ;
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  padding:10px;
+  }
+
+  .artikel{
+    border-style:solid ;
+    margin: 20px ;
+    padding: 20px;
+    
+  }
+
+
+  .Gamedetails{
+    border-style:solid ;
+    margin: 20px ;
+    padding: 20px;
+
+  }
+
+
+.computerlimits{
+  border-style:solid ;
+  margin: 20px ;
+  padding: 20px;
+
+}
+
+
+.reviews{
+  border-style:solid ;
+  margin: 20px ;
+  padding: 20px;
+
+}
+  
+  img{
+    border-style:solid ;
+    margin: 20px ;
+    padding: 20px;
+  }
