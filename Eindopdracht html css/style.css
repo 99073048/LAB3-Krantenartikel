@@ -1,39 +1,12 @@
 
   
-  
-  /* body{
-  
-  border-style: solid;
-  }
-  .navbar{
-
-    display: flex;
-    background-color: rgb(101, 87, 87);
-    border-style: solid;
-    border-color:black ;
-    margin: 20px;
-  }
-  
-  .item{
-    background-color: rgb(255, 255, 255);
-    color: rgb(4, 0, 0);
-    font-size: 25px;
-    margin: 10px;
-    flex-direction: row;
-  } */
-/*   
- .item4{
-    display: flex;
-    /* justify-content: right; 
-  }   */
-  
 
   body{
     display: flex;
     flex-direction: column;
   border-style: solid;
   padding: 20px;
-
+  
 
   }
   .navbar{
@@ -43,6 +16,8 @@
   border-style: solid;
   
   }
+
+  
 
   .item{
   color: rgb(0, 0, 0);
@@ -55,12 +30,12 @@
   }
   
   
-  .game{
+  #gamer{
   font-size: 15px;
   color:rgb(0, 0, 0) ;
   display: flex;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   padding:10px;
   }
 
@@ -68,35 +43,56 @@
     border-style:solid ;
     margin: 20px ;
     padding: 20px;
+    height: 230px;
+    width: 75%;
     
   }
 
 
-  .Gamedetails{
-    border-style:solid ;
-    margin: 20px ;
-    padding: 20px;
+  .Gamedetails{    
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    height: 300px;
+   
 
   }
 
 
 .computerlimits{
   border-style:solid ;
-  margin: 20px ;
-  padding: 20px;
+   margin: 10px ;
+  padding-top : 20px; 
 
 }
 
 
-.reviews{
-  border-style:solid ;
-  margin: 20px ;
-  padding: 20px;
-
+  .reviews {
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+    border-style: solid;
 }
   
-  img{
-    border-style:solid ;
-    margin: 20px ;
-    padding: 20px;
+  
+
+  .Gamefotos {
+    display: flex;
   }
+  
+  .Gamefotos img {
+    width: 200px;
+    height: 200px;
+    border-style:solid;
+    margin: 20px;
+    margin-bottom: 0;
+  
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+  }
+  
